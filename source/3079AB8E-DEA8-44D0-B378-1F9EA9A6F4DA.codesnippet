@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mas_remake</string>
+	<string>btnset</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_remakeConstraints:^(MASConstraintMaker *make) {
-    &lt;#code#&gt;
-    }];</string>
+	<string>[&lt;#buttonName#&gt; setBackgroundImage:[UIImage imageNamed:@"&lt;#challenge_button_1#&gt;"] forState:UIControlStateNormal];
+        [&lt;#buttonName#&gt; setTitle:NSLocalizedString(@"&lt;#免战#&gt;",  nil) forState:UIControlStateNormal];
+ [&lt;#buttonName#&gt; addTarget:self action:@selector(&lt;#selector:#&gt;) forControlEvents:UIControlEventTouchUpInside];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D44CDA50-961C-470E-94E4-4334D928015D</string>
+	<string>3079AB8E-DEA8-44D0-B378-1F9EA9A6F4DA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mas_remake</string>
+	<string>button setting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

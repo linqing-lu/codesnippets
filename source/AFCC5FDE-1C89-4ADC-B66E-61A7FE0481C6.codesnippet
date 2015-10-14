@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mas_remake</string>
+	<string>lblset</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_remakeConstraints:^(MASConstraintMaker *make) {
-    &lt;#code#&gt;
-    }];</string>
+	<string>&lt;#name#&gt;.font = [UIFont systemFontOfSize:13];
+        &lt;#name#&gt;.textColor = UIColorFromRGB(0xffffff);
+        &lt;#name#&gt;.backgroundColor = [UIColor clearColor];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D44CDA50-961C-470E-94E4-4334D928015D</string>
+	<string>AFCC5FDE-1C89-4ADC-B66E-61A7FE0481C6</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mas_remake</string>
+	<string>label setting</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

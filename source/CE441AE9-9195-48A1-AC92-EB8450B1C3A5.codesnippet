@@ -3,21 +3,36 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mas_remake</string>
+	<string>iv</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_remakeConstraints:^(MASConstraintMaker *make) {
-    &lt;#code#&gt;
-    }];</string>
+	<string>#pragma mark - Life Cycle
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    self = [super initWithFrame:frame];
+    if (self) {
+        
+    }
+    return self;
+}
+
+#pragma mark - public methods
+
+#pragma mark - button actions
+
+#pragma mark - private methods
+
+#pragma mark - getters and setters
+</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D44CDA50-961C-470E-94E4-4334D928015D</string>
+	<string>CE441AE9-9195-48A1-AC92-EB8450B1C3A5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mas_remake</string>
+	<string>init view</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

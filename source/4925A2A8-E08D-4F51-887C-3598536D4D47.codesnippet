@@ -3,21 +3,25 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>mas_remake</string>
+	<string>proimg</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>CodeBlock</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#view#&gt; mas_remakeConstraints:^(MASConstraintMaker *make) {
-    &lt;#code#&gt;
-    }];</string>
+	<string>- (UIImageView *)&lt;#name#&gt;
+{
+    if (!_&lt;#name#&gt;) {
+        _&lt;#name#&gt; = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"rock"]];
+    }
+    return _&lt;#name#&gt;;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>D44CDA50-961C-470E-94E4-4334D928015D</string>
+	<string>4925A2A8-E08D-4F51-887C-3598536D4D47</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>mas_remake</string>
+	<string>property imageview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
