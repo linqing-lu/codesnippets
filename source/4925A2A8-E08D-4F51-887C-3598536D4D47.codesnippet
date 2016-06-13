@@ -13,6 +13,7 @@
 {
     if (!_&lt;#name#&gt;) {
         _&lt;#name#&gt; = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"rock"]];
+        _&lt;#name#&gt;.layer.masksToBounds = YES;
     }
     return _&lt;#name#&gt;;
 }</string>

@@ -3,40 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>iv</string>
+	<string>protbl</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>#pragma mark - Life Cycle
-- (instancetype)initWithFrame:(CGRect)frame
+	<string>- (UITableView *)tableView
 {
-    self = [super initWithFrame:frame];
-    if (self) {
-        
+    if (!_tableView) {
+        _tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+        _tableView.backgroundColor = [UIColor clearColor];
     }
-    return self;
-}
-
-#pragma mark - public methods
-
-#pragma mark - button actions
-
-#pragma mark - notifications
-
-#pragma mark - private methods
-
-#pragma mark - getters
-
-#pragma mark - setters
-</string>
+    return _tableView;
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>CE441AE9-9195-48A1-AC92-EB8450B1C3A5</string>
+	<string>3840E500-138F-484A-AC48-B5F417E573CC</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>init view</string>
+	<string>tableview</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
